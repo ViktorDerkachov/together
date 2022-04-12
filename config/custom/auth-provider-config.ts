@@ -1,8 +1,4 @@
 import type { Nullable, AuthProviderConfig } from '../../types';
-
-export const authProviderConfig: Nullable<AuthProviderConfig> = null;
-
-import type { Nullable, AuthProviderConfig } from '../../types';
 import SlackProvider from 'next-auth/providers/slack';
 
 const SLACK_CLIENT_ID = process.env.SLACK_CLIENT_ID!;
